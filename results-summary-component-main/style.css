@@ -1,0 +1,381 @@
+body {
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.main-container {
+    width: 720px;
+    height: 496px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-shadow: 12px 10px 38px 0px rgba(179, 177, 179, 1);
+    -moz-box-shadow: 12px 10px 38px 0px rgba(179, 177, 179, 1);
+    box-shadow: 12px 10px 38px 0px rgba(179, 177, 179, 1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 8%;
+}
+
+.side-by-side-container {
+    display: flex;
+    border-radius: 8%;
+}
+
+.left-div {
+    width: 360px;
+    height: 496px;
+    border-radius: 8%;
+    z-index: 5;
+    background: hsla(252, 100%, 63%, 1);
+    background: linear-gradient(270deg, hsla(252, 100%, 63%, 1) 0%, hsla(243, 83%, 55%, 1) 100%);
+    background: -moz-linear-gradient(270deg, hsla(252, 100%, 63%, 1) 0%, hsla(243, 83%, 55%, 1) 100%);
+    background: -webkit-linear-gradient(270deg, hsla(252, 100%, 63%, 1) 0%, hsla(243, 83%, 55%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#6742FF", endColorstr="#382FEC", GradientType=1);
+}
+
+.right-div {
+    width: 423px;
+    height: 496px;
+    background-color: white;
+    border-radius: 10%;
+    margin-left: -63px;
+}
+
+.right-main {
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+#summary {
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: #3c415f;
+    margin-bottom: 20px;
+    margin-left: 11px;
+}
+
+.left-box {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#leftBox1 {
+    margin: 48px 20px 20px 20px;
+    font-size: 25px;
+    color: #c7c0ff;
+    font-weight: bold;
+}
+
+#leftBox2 {
+    display: flex;
+    flex-direction: column;
+    height: 186px;
+    width: 186px;
+    background: hsla(256, 72%, 45%, 1);
+    background: linear-gradient(270deg, hsla(256, 72%, 45%, 1) 0%, hsla(247, 89%, 58%, 1) 100%);
+    background: -moz-linear-gradient(270deg, hsla(256, 72%, 45%, 1) 0%, hsla(247, 89%, 58%, 1) 100%);
+    background: -webkit-linear-gradient(270deg, hsla(256, 72%, 45%, 1) 0%, hsla(247, 89%, 58%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#4C21C7", endColorstr="#4A35F3", GradientType=1);
+    border-radius: 97px;
+    margin: 15px 10px 10px 87px;
+}
+
+#leftSubBox2 {
+    margin-top: 45px;
+    font-size: 75px;
+    line-height: 0.7;
+    padding: 10px;
+    font-weight: bolder;
+    color: #fefdff;
+}
+
+#leftSubBox2-outOf {
+    font-weight: bold;
+    font-size: 22px;
+    color: #8375fc;
+    /* margin-top: -8px; */
+
+}
+
+#leftBox3 {
+    width: 225px;
+    margin: 19px 0px 0px 67px;
+    color: #babbff;
+}
+
+#great {
+    display: block;
+    font-size: 32px;
+    font-weight: bold;
+    color: #fcfdff;
+    margin-bottom: 11px;
+}
+
+
+/* --------------------------------------------- */
+
+.right-box {
+    display: flex;
+    padding: 13px;
+    margin: 19px 43px 10px 11px;
+    border-radius: 8px;
+    font-size: 17px;
+}
+
+.rightBox1 {
+    flex: 4;
+}
+
+.rightBox1:first-child {
+    flex: 1;
+}
+
+.icons {
+    margin-left: 2px;
+}
+
+.marks {
+    text-align: right;
+    font-weight: bold;
+    color: #3e4256;
+}
+
+.out-of-color {
+    color: #a09d9e;
+    padding: 6leftpx;
+}
+
+#box-reaction {
+    background-color: #fff6f5;
+}
+
+#box-memory {
+    background-color: #fffbf2;
+}
+
+#box-verbal {
+    background-color: #f2fbfa;
+}
+
+#box-visual {
+    background-color: #f3f3fd;
+}
+
+#reaction {
+    color: #ff5555;
+}
+
+#memory {
+    color: #ffb21e;
+}
+
+#verbal {
+    color: #00bb8f;
+}
+
+#visual {
+    color: #1125d6;
+}
+
+.svg-icons {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+
+button {
+    font-size: 15px;
+    font-weight: 700;
+    width: 266px;
+    height: 52px;
+    margin-left: 13px;
+    border-radius: 23px;
+    border: none;
+    background-color: #303b59;
+    color: #dce7ec;
+    margin-top: 29px;
+}
+
+button:hover {
+    background: hsla(252, 100%, 63%, 1);
+    background: linear-gradient(270deg, hsla(252, 100%, 63%, 1) 0%, hsla(243, 83%, 55%, 1) 100%);
+    background: -moz-linear-gradient(270deg, hsla(252, 100%, 63%, 1) 0%, hsla(243, 83%, 55%, 1) 100%);
+    background: -webkit-linear-gradient(270deg, hsla(252, 100%, 63%, 1) 0%, hsla(243, 83%, 55%, 1) 100%);
+    cursor: pointer;
+}
+
+/* --------------------------------------------- */
+
+/* --------------------------------------------------------------Media Screens-------------------------------------------- */
+@media screen and (min-width:600px) and (max-width: 968px) {
+
+    .main-container {
+        width: 465px;
+        height: 300px;
+    }
+
+    .left-div {
+        width: 250px;
+        height: 300px;
+
+    }
+
+    .right-div {
+        width: 250px;
+        height: 300px;
+        margin: 0px 0px 0px -35px;
+    }
+
+    #leftBox1 {
+        margin: 19px 20px 20px 20px;
+        font-size: 17px;
+    }
+
+    #leftBox2 {
+        height: 111px;
+        width: 111px;
+        margin: -1px 14px 10px 68px;
+    }
+
+    #leftSubBox2 {
+        margin-top: 21px;
+        margin-left: 2px;
+        font-size: 54px;
+    }
+
+    #leftSubBox2-outOf {
+        font-size: 13px;
+    }
+
+    #great {
+        font-size: 20px;
+        margin-bottom: 11px;
+    }
+
+    #leftBox3 {
+        width: 162px;
+        margin: 7px 0px 0px 44px;
+        font-size: 11px;
+    }
+
+    .right-main {
+        margin-left: 36px;
+        margin-top: 9px;
+    }
+
+    #summary {
+        font-size: 17px;
+        margin-top: 19px;
+        margin-bottom: 20px;
+        margin-left: 23px;
+    }
+
+    .right-box {
+        padding: 8px;
+        margin: 7px 23px 11px 23px;
+        font-size: 11px;
+        width: 152px;
+        height: 16px;
+    }
+
+    .svg-icons {
+        height: 10px;
+        width: 10px;
+        margin-right: 5px;
+    }
+
+    button {
+        font-size: 12px;
+        width: 168px;
+        height: 34px;
+        margin-left: 23px;
+        margin-top: 6px;
+    }
+}
+
+@media screen and (min-width: 52px)and (max-width: 600px) {
+    body{
+        height: 800px;
+    }
+    .side-by-side-container {
+        flex-direction: column;
+    }
+
+    .main-container {
+        margin-top: 50px;
+        width: 300px;
+        height: 619px;
+        -webkit-box-shadow: 0px 9px 52px 4px rgba(179, 177, 179, 1);
+        -moz-box-shadow: 0px 9px 52px 4px rgba(179, 177, 179, 1);
+        box-shadow: 0px 9px 52px 4px rgba(179, 177, 179, 1);
+    }
+
+    .left-div {
+        color: black;
+        width: 300px;
+        height: 300px;
+        margin: 0px 0px 0px 0px;
+        border: 0;
+    }
+
+    .right-div {
+        width: 300px;
+        height: 384px;
+        margin: -31px 0 0 0;
+    }
+
+    #leftBox1 {
+        margin: 22px 20px 20px 20px;
+        font-size: 20px;
+    }
+    #leftBox2 {
+        height: 116px;
+        width: 116px;
+        background: hsla(256, 72%, 45%, 1);
+        background: linear-gradient(270deg, hsla(256, 72%, 45%, 1) 0%, hsla(245, 86%, 57%, 1) 100%);
+        background: -moz-linear-gradient(270deg, hsla(256, 72%, 45%, 1) 0%, hsla(245, 86%, 57%, 1) 100%);
+        background: -webkit-linear-gradient(270deg, hsla(256, 72%, 45%, 1) 0%, hsla(245, 86%, 57%, 1) 100%);
+        filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#4C21C7", endColorstr="#4232F0", GradientType=1);
+        margin: 3px 10px 10px 93px;
+    }
+    #leftSubBox2 {
+        margin-top: 19px;
+        font-size: 56px;
+        padding: 10px;
+    }
+    #leftSubBox2-outOf {
+        font-size: 15px;
+    }
+    #great {
+        font-size: 21px;
+    }
+    #leftBox3 {
+        width: 251px;
+        margin: 4px 0px 0px 24px;
+        font-size: 14px;
+    }
+    .right-main {
+        margin-left: 11px;
+        margin-top: 42px;
+    }
+    #summary {
+        font-size: 15px;
+    }
+    .right-box {
+        padding:11px;
+        margin: 11px 43px 10px 11px;
+        font-size: 14px;
+        width: 231px;
+    }
+    button {
+        font-size: 13px;
+        width: 258px;
+        height: 41px;
+        margin-left: 11px;
+        margin-top: 11px;
+    }
+}
